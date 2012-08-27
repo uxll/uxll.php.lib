@@ -1,0 +1,10 @@
+<?php
+define("UXLL_VERSION", "{{$ver}}");
+define("UXLL_DEBUG_FLAG",false); 
+error_reporting(0);if(UXLL_DEBUG_FLAG)ob_start();
+//for debug
+if(!defined("ROOT"))define("ROOT",dirname(str_replace("\\","/",dirname(__FILE__)))."/");
+if(!defined("UXLL_ROOT"))define("UXLL_ROOT",ROOT."lib/uxll/");
+if(!defined("HOME"))define("HOME","/");
+if(!defined("MODEL"))define("MODEL",ROOT."model/");
+if(!defined("WEB"))define("WEB","http://".$_SERVER["HTTP_HOST"]."/");
