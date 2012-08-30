@@ -1,5 +1,5 @@
 <?php
-define("UXLL_VERSION", "1.61"); //当前框架版本2012/8/25 9:35:51
+define("UXLL_VERSION", "1.01"); //当前框架版本2012/8/25 9:35:51
 define("UXLL_DEBUG_FLAG",true); 
 error_reporting(E_ALL);
 if(UXLL_DEBUG_FLAG)ob_start();//for debug
